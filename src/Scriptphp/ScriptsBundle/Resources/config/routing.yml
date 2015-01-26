@@ -1,0 +1,16 @@
+
+_scripts_homepage:
+    pattern:  /scripts/
+    defaults: { _controller: ScriptphpScriptsBundle:Default:indexMenu }
+    
+_scripts_tests_form:
+    pattern:  /tests/form
+    defaults: { _controller: ScriptphpScriptsBundle:Tests:form }
+    
+
+
+_scripts_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ScriptphpScriptsBundle:Default:index }
+    
+
